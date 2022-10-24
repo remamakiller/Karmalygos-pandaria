@@ -1,0 +1,1 @@
+UPDATE `creature_template` SET `ScriptName` = 'npc_wayward_ancestor' WHERE `entry` = 55290;

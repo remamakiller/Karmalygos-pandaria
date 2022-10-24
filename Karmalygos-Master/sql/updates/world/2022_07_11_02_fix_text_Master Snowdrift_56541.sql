@@ -1,0 +1,21 @@
+DELETE FROM creature_text WHERE entry IN (56541);
+INSERT INTO`creature_text`(`entry`, `groupid`, `id`, `text`, `type`, `language`, `probability`, `emote`, `duration`, `sound`, `comment`) VALUES 
+(56541, 0, 0, 'You! You have allowed the Sha to reawaken after all these years!', 14, 0, 100, 0, 0, 27626, 'Master Snowdrift'),
+(56541, 1, 0, 'If you truly wish to undo what your kind have wrought upon our land you must first prove yourselves here in our school.', 14, 0, 100, 0, 0, 27627, 'Master Snowdrift'),
+(56541, 2, 0, 'First, you will face our initiates...', 14, 0, 100, 0, 0, 27632, 'Master Snowdrift'),
+(56541, 3, 0, 'You have bested our most junior of students.  Now you will face two of my most senior.', 14, 0, 100, 0, 0, 27631, 'Master Snowdrift'),
+(56541, 4, 0, 'Flying Snow! Fragrant Lotus! Step forward!', 14, 0, 100, 0, 0, 27636, 'Master Snowdrift'),
+(56541, 5, 0, 'You have bested my prize students. Perhaps you can be of use to us after all...', 14, 0, 100, 0, 0, 27633, 'Master Snowdrift'),
+(56541, 6, 0, 'As my master once said, \"You cannot truly know someone until you fight them.\"', 14, 0, 100, 0, 0, 27634, 'Master Snowdrift'),
+(56541, 7, 0, 'Come forward, so that we may be properly introduced.', 14, 0, 100, 0, 0, 27635, 'Master Snowdrift'),
+(56541, 8, 0, 'Very well then, outsiders. Let us see your true strength.', 14, 0, 100, 0, 0, 27628, 'Master Snowdrift'),
+(56541, 9, 0, 'I am bested, give me a moment and we will venture forth together to face the Sha.', 14, 0, 100, 0, 0, 27623, 'Master Snowdrift'),
+(56541, 10, 0, 'You need more training!', 14, 0, 100, 0, 0, 27637, 'Master Snowdrift'),
+(56541, 10, 1, 'Your technique needs work.', 14, 0, 100, 0, 0, 27638, 'Master Snowdrift'),
+(56541, 11, 0, 'Skill with a weapon is but a physical manifestation of one\'s martial strength. Let me show you what spiritual power is!', 14, 0, 100, 0, 0, 27629, 'Master Snowdrift'),
+(56541, 12, 0, 'When I was but a cub I could scarcely throw a punch, but after years of training I can do so much more!', 14, 0, 100, 0, 0, 27630, 'Master Snowdrift'),
+(56541, 13, 0, 'Where one falls, another will rise to take their place.', 14, 0, 100, 0, 0, 27624, 'Master Snowdrift'),
+(56541, 13, 1, 'You have much to learn if you wish to defend your people from the Sha initiate.  Stand aside for your fellow students!', 14, 0, 100, 0, 0, 27625, 'Master Snowdrift'),
+(56541, 14, 0, '|TInterfaceIconsinv_weapon_hand_30.blp:20|tMaster Snowdrift uses his |cFFFF0000|Hspell:106853|h[Fists of Fury]|h|r technique!', 41, 0, 100, 0, 0, 0, 'Master Snowdrift'),
+(56541, 15, 0, '|TInterfaceIconsspell_nature_earthbind.blp:20|tMaster Snowdrift uses his |cFFFF0000|Hspell:106434|h[Tornado Kick]|h|r!', 41, 0, 100, 0, 0, 0, 'Master Snowdrift'),
+(56541, 16, 0, '|TInterfaceIconsability_parry.blp:20|tMaster Snowdrift enables his |cFFFF0000|Hspell:106454|h[Parry Stance]|h|r!', 41, 0, 100, 0, 0, 0, 'Master Snowdrift');

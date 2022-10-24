@@ -1,0 +1,20 @@
+DELETE FROM `creature_text` WHERE `entry`in (49869,50039,49874,42937);
+INSERT INTO `creature_text`(`entry`, `groupid`, `id`, `text`, `type`, `language`, `probability`, `emote`, `duration`, `sound`, `comment`) VALUE
+(49869, 0, 0, 'HELP!', 12, 0, 100, 0, 0, 0, 'Stormwind Infantry - Call for heal prase'),
+(49869, 0, 1, 'I need a heal!', 12, 0, 100, 0, 0, 0, 'Stormwind Infantry - Call for heal prase'),
+(49869, 0, 2, 'I could use a heal, brother!', 12, 0, 100, 0, 0, 0, 'Stormwind Infantry - Call for heal prase'),
+(49869, 0, 3, 'Make yourself useful and heal me, Paxton!', 12, 0, 100, 0, 0, 0, 'Stormwind Infantry - Call for heal prase'),
+(49869, 1, 0, 'Come, monsters! We will crush you!', 14, 0, 100, 0, 0, 0, 'Stormwind Infantry - Yell'),
+(49869, 1, 1, 'I\'ll kill a hundred more of your battle worgs!', 14, 0, 100, 0, 0, 0, 'Stormwind Infantry - Yell'),
+(49869, 1, 2, 'Look alive, men! There are orcs and worgs about!', 14, 0, 100, 0, 0, 0, 'Stormwind Infantry - Yell'),
+(49869, 1, 3, 'Your filthy dogs won\'t be enough!', 14, 0, 100, 0, 0, 0, 'Stormwind Infantry - Yell'),
+(49869, 1, 4, 'Your worgs are no match for the might of Stormwind!', 14, 0, 100, 0, 0, 0, 'Stormwind Infantry - Yell'),
+(49874, 0, 0, 'Orc KILL human!', 12, 0, 50, 0, 0, 0, 'on Aggro Text'),
+(49874, 0, 1, 'Blackrock take forest!', 12, 0, 50, 0, 0, 0, 'on Aggro Text'),
+(49874, 0, 2, 'The grapes were VERY TASTY!', 12, 0, 50, 0, 0, 0, 'on Aggro Text'),
+(50039, 0, 0, 'Time to join your friends, kissin\' the dirt!', 12, 0, 50, 0, 0, 0, 'on Aggro Text'),
+(50039, 0, 1, 'We\'re gonna burn this place to the ground!', 12, 0, 50, 0, 0, 0, 'on Aggro Text'),
+(42937, 0, 0, 'Las uvas eran MUY SABROSAS!', 12, 0, 100, 71, 0, 0, 'Blackrock Invader to Player'),
+(42937, 3, 0, 'Suplica por tu vida!', 12, 0, 100, 71, 0, 0, 'Blackrock Invader to Player'),
+(42937, 2, 0, 'Orco MATAR $r!', 12, 0, 100, 0, 0, 0, 'Blackrock Invader to Player'),
+(42937, 1, 0, 'Roca Negra tomar bosque!', 12, 0, 100, 71, 0, 0,'Blackrock Invader to Player');

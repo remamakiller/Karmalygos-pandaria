@@ -1,0 +1,1 @@
+UPDATE `command` SET `security` = 4 WHERE `name` IN ('group join', 'group list', 'group remove', 'group disband', 'deserter bg add', 'deserter bg remove', 'deserter instance add', 'deserter instance remove', 'guild create', 'guild delete', 'guild invite', 'guild rank', 'guild uninvite', 'bindsight', 'unbindsight');

@@ -1,0 +1,1 @@
+UPDATE `gameobject` SET `phaseMask` = 1 WHERE `id` = 181555 AND `zoneid` = 3483;

@@ -1,0 +1,1 @@
+UPDATE `creature_template` SET `ScriptName` = 'npc_gardener_fran' WHERE `entry` = 62377; 

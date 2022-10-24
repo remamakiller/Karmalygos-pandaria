@@ -1,0 +1,1 @@
+update `creature_template` set `flags_extra`= 2 where `entry` = 51127;
